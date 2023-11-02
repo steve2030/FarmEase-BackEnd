@@ -7,11 +7,29 @@ public class Farmer {
 
     private String lastName;
 
-    private int location;
+
 
     private String email;
 
     private String phoneNumber;
 
+
+
+
+    // toString method
+    @Override
+    public String toString() {
+        return "Farmer{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+
+                ", email='" + email + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
+    }
+
 }
 //constructor class
+
+
