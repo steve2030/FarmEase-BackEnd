@@ -36,12 +36,12 @@ public class Farmer {
     }
 //third constructor
 
-    public Farmer(String firstName, String lastName, String email, int phoneNumber) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.email = email;
-        this.phoneNumber = phoneNumber;
-    }
+//    public Farmer(String firstName, String lastName, String email, int phoneNumber) {
+//        this.firstName = firstName;
+//        this.lastName = lastName;
+//        this.email = email;
+//        this.phoneNumber = phoneNumber;
+//    }
 
 //    getters and setters
 
