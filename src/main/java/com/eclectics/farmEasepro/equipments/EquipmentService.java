@@ -6,9 +6,9 @@ import java.util.List;
 
 @Service
 public class EquipmentService {
-    public List<Equipment>getEquipments{
+    public List<Equipment>getEquipments(){
         return List.of(
-                new Equipment(1, "Tractor", "A red Fergurson KCA234",500, 2)
+                new Equipment((long)1, "Tractor", "A red Fergurson KCA234",500, 2)
 
                 );
     }
