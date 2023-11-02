@@ -14,3 +14,4 @@ public class Farmer {
     private String phoneNumber;
 
 }
+//constructor class
