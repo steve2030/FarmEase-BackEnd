@@ -59,4 +59,16 @@ public class Equipment {
     public void setAvailability(int availability) {
         this.availability = availability;
     }
+//    to string
+
+    @Override
+    public String toString() {
+        return "Equipment{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                ", availability=" + availability +
+                '}';
+    }
 }
