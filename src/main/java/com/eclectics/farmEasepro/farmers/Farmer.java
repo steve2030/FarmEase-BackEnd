@@ -16,15 +16,32 @@ public class Farmer {
 
 //    constructor class
 
+//first consructor
+    public Farmer(Long id) {
+        this.id = id;
+    }
 
-    public Farmer(Long id, String firstName, String lastName, String email, int phoneNumber) {
+//second constructor
+    public Farmer(Long id,
+                  String firstName,
+                  String lastName,
+                  String email,
+                  int phoneNumber
+    ) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.phoneNumber = phoneNumber;
     }
+//third constructor
 
+    public Farmer(String firstName, String lastName, String email, int phoneNumber) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
 
 //    getters and setters
 
