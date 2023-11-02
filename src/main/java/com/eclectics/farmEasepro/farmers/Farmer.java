@@ -24,6 +24,19 @@ public class Farmer {
         this.email = email;
         this.phoneNumber = phoneNumber;
     }
+
+//    to_string
+
+    @Override
+    public String toString() {
+        return "Farmer{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                '}';
+    }
 }
 
 
