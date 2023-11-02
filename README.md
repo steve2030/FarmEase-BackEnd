@@ -14,6 +14,7 @@ Farm Ease is a web application designed to help farmers manage their equipment i
 - **Spring Boot:** The project is built using the Spring Boot framework, providing a robust and scalable backend for the application.
 - **Java Persistence API (JPA):** JPA is used for database interaction, allowing seamless integration with the underlying database.
 - **PostgreSql:** An in-memory H2 database is used for storing equipment and farmer data during development.
+- **Postman:** For API testing.
 
 
 ## Getting Started
@@ -27,8 +28,67 @@ Farm Ease is a web application designed to help farmers manage their equipment i
    ```bash
    git clone https://github.com/steve2030/FarmEase-BackEnd
    cd FarmEase-BackEnd
+## API Endpoints
 
+### Farmers
 
+- **GET /api/farmers:** Retrieve a list of all farmers.
+- **GET /api/farmers/{id}:** Retrieve details of a specific farmer by ID.
+- **POST /api/farmers:** Create a new farmer.
+  - Request Body Example:
+    ```json
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 35,
+      "address": "123 Main St, Farmtown",
+      "phoneNumber": "555-1234"
+    }
+    ```
+- **PUT /api/farmers/{id}:** Update details of an existing farmer by ID.
+  - Request Body Example:
+    ```json
+    {
+      "firstName": "Updated",
+      "lastName": "Doe",
+      "age": 36,
+      "address": "123 Main St, Farmtown",
+      "phoneNumber": "555-5678"
+    }
+    ```
 
+### Equipment
 
-   cd farm-ease
+- **GET /api/equipment:** Retrieve a list of all equipment items.
+- **GET /api/equipment/{id}:** Retrieve details of a specific equipment item by ID.
+- **POST /api/equipment:** Create a new equipment item.
+  - Request Body Example:
+    ```json
+    {
+      "name": "Tractor",
+      "description": "Farm tractor for plowing fields",
+      "price": 50000.00,
+      "availability": true,
+      "owner": {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe"
+      }
+    }
+    ```
+- **PUT /api/equipment/{id}:** Update details of an existing equipment item by ID.
+  - Request Body Example:
+    ```json
+    {
+      "name": "Updated Tractor",
+      "description": "Farm tractor for plowing fields and planting crops",
+      "price": 55000.00,
+      "availability": false,
+      "owner": {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe"
+      }
+    }
+    ```
+## license
