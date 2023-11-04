@@ -21,12 +21,12 @@ public class EquipmentService {
 //    Add an Equipment(POst Method)
 
     public List<Equipment>createEquipment{
-        return
+        return equipmentRepository.
     }
 
 //    Update/Edit/
 public List<Equipment>updateEquipment{
-        return
+        return equipmentRepository.
     }
 
 }
