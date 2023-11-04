@@ -13,4 +13,20 @@ public class EquipmentService {
         return equipmentRepository.findAll();
     }
 
+//    Find Equipment by Id
+    public List<Equipment>getEquipment(){
+        return equipmentRepository.findById();
+    }
+
+//    Add an Equipment(POst Method)
+
+    public List<Equipment>createEquipment{
+        return
+    }
+
+//    Update/Edit/
+public List<Equipment>updateEquipment{
+        return
+    }
+
 }

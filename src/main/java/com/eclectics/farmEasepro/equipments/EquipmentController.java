@@ -22,7 +22,7 @@ public class EquipmentController {
 //    Fetching A single Farmer
     @GetMapping(path = "api/v1/equipments{Id}")
     public List<Equipment>getEquipment(){
-        return equipmentService.findById();
+        return equipmentService.getEquipment();
     }
 
 
