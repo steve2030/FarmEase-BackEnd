@@ -3,6 +3,7 @@ package com.eclectics.farmEasepro.equipments;
 <<<<<<< ft-equipments
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
@@ -17,4 +18,7 @@ public class EquipmentController {
     public List<Equipment>getEquipments(){
         return equipmentService.getEquipments();
     }
+//    Code for POST REQUEST
+    @PatchMapping()
+
 }
