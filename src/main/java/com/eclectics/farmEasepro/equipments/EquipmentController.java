@@ -18,7 +18,15 @@ public class EquipmentController {
     public List<Equipment>getEquipments(){
         return equipmentService.getEquipments();
     }
+
+//    Fetching A single Farmer
+    @GetMapping(path = "api/v1/equipments{Id}")
+
+
+
 //    Code for POST REQUEST
     @PatchMapping()
+
+
 
 }
