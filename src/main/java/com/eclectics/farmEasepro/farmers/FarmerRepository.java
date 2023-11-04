@@ -1,4 +1,8 @@
 package com.eclectics.farmEasepro.farmers;
 
-public interface FarmerRepository {
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface FarmerRepository  {
 }
