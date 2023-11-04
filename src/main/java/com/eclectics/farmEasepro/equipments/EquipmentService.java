@@ -10,7 +10,7 @@ public class EquipmentService {
     @Autowired
     private EquipmentRepository equipmentRepository;
     public List<Equipment>getEquipments(){
-        return
+        return equipmentRepository.findAll();
     }
 
 }
