@@ -1,7 +1,7 @@
 package com.eclectics.farmEasepro.equipments;
 
-import org.springframework.stereotype.Service;
 
-@Service
+@Repository
+
 public interface EquipmentRepository {
 }
