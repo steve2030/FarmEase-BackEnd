@@ -19,12 +19,14 @@ public class EquipmentController {
     private EquipmentService equipmentService;
     @GetMapping(path = "api/v1/equipments")
     public List<Equipment>getEquipments(){
+
         return equipmentService.getEquipments();
     }
 
 //    Fetching A single Farmer
     @GetMapping(path = "api/v1/equipments{Id}")
     public List<Equipment>getEquipment(){
+
         return equipmentService.getEquipment();
     }
 
