@@ -32,8 +32,6 @@ public class EquipmentController {
 
 
 
-//    Code for POST REQUEST
-    @PostMapping()
 
 
 
