@@ -15,9 +15,9 @@ public class EquipmentService {
     }
 
 //    Find Equipment by Id
-    public optional <Equipment>getEquipment(Long Id){
+    public optional <Equipment>getEquipment(Long id){
 
-        return equipmentRepository.findById(Id);
+        return equipmentRepository.findById(id);
     }
 
 //    Add an Equipment(POst Method)
@@ -32,6 +32,6 @@ public List<Equipment>updateEquipment{
 
 //    Delete an Equipment
 public void deleteEquipment(){
-        return equipmentRepository.deleteById(Id);
+        return equipmentRepository.deleteById(id);
 }
 }
