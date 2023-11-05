@@ -1,5 +1,8 @@
 package com.eclectics.farmEasepro.equipments;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+
 public class Equipment {
     private Long id;
     private String name;
