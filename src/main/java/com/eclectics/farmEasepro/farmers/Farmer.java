@@ -1,6 +1,9 @@
 package com.eclectics.farmEasepro.farmers;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
 public class Farmer {
+
     private Long id;
 
     private String firstName;
